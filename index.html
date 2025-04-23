@@ -7,7 +7,7 @@
 <head>
 	<title>Happy Birthday</title>
 	<meta charset="UTF-8" />
-	<meta name="description" content="Happy Birthday Menal">
+	<meta name="description" content="Happy Birthday Xola">
 	<meta name="robots" content="index, follow" />
 	<link rel="author" href="https://plus.google.com/u/1/+AyushSharma1/" /> 
     <meta name="keywords" content="Birthday, Happy">
@@ -24,7 +24,6 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="loading.css">
 	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
-	<!-- <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'> -->
 	<link rel="stylesheet/less" href="cake.less">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
 </head>
@@ -36,28 +35,40 @@
 	   Your browser isn't invited for super fun audio time.
     </audio>
     <div class="balloons text-center" id="b1">
-    	<h2 style="color:#F2B300;">H</h2>
+    	<h2 style="color:#F2B300;">X</h2>
     </div>
     <div class="balloons text-center" id="b2">
-    	<h2 style="color:#0719D4;">B</h2>
+    	<h2 style="color:#0719D4;">O</h2>
     </div>
 	<div class="balloons text-center" id="b3">
-    	<h2 style="color:#D14D39;">D</h2>
+    	<h2 style="color:#D14D39;">L</h2>
     </div>
 	<div class="balloons text-center" id="b4">
-    	<h2 style="color:#8FAD00;">M</h2>
+    	<h2 style="color:#8FAD00;">A</h2>
     </div>
 	<div class="balloons text-center" id="b5">
-    	<h2 style="color:#8377E4;">E</h2>
+    	<h2 style="color:#8FAD00;">!</h2>
     </div>
     <div class="balloons text-center" id="b6">
-    	<h2 style="color:#99C96A;">N</h2>
+    	<h2 style="color:#8FAD00;">!</h2>
     </div>
     <div class="balloons text-center" id="b7">
-    	<h2 style="color:#20CFB4;">A</h2>
+    	<h2 style="color:#8FAD00;">!</h2>
     </div>
     <div class="balloons text-center" id="b8">
-    	<h2 style="color:#99C96A;">L</h2>
+    	<h2 style="color:#8FAD00;">!</h2>
+    </div>
+    <div class="balloons text-center" id="b9">
+    	<h2 style="color:#8FAD00;">!</h2>
+    </div>
+    <div class="balloons text-center" id="b10">
+    	<h2 style="color:#8FAD00;">!</h2>
+    </div>
+    <div class="balloons text-center" id="b11">
+    	<h2 style="color:#8FAD00;">!</h2>
+    </div>
+    <div class="balloons text-center" id="b12">
+    	<h2 style="color:#8FAD00;">!</h2>
     </div>
 
     <img src="Balloon-Border.png" width="100%" class="balloon-border">
@@ -92,7 +103,7 @@
 		</div>
 		<div class="row cake-cover">
 			<div class="col-md-12 texr-center">
-				<div class="cake">
+				<div:click="cake">
 				  <div class="velas">
 				    <div class="fuego"></div>
 				    <div class="fuego"></div>
@@ -106,41 +117,14 @@
 			</div>
 		</div>
 		<div class="row message">
-    <div class="col-md-12">
-        <p>Today is your special day...</p>
-        <p>and I just want to say</p>
-        <p>how grateful I am to have you in my life</p>
-        <p>Since you came into my world</p>
-        <p>everything has been brighter</p>
-        <p><strong>You are</strong></p>
-        <p>the sweetest person I've ever met</p>
-        <p>with the kindest heart</p>
-        <p>and the most beautiful soul</p>
-        <p>Every moment with you</p>
-        <p>is a treasure I cherish</p>
-        <p>Your smile lights up my world</p>
-        <p>and your laughter is my favorite melody</p>
-        <p>On this special day</p>
-        <p>I want you to know</p>
-        <p>how much you mean to me</p>
-        <p>You're not just special today</p>
-        <p>but every single day</p>
-        <p>May this year bring you</p>
-        <p>all the happiness you deserve</p>
-        <p>May your dreams take flight</p>
-        <p>and your heart always be light</p>
-        <p>Remember that you're amazing</p>
-        <p>capable of anything</p>
-        <p>and loved more than you know</p>
-        <p>Keep shining bright</p>
-        <p>like the star you are</p>
-        <p>And know that I'll always be here</p>
-        <p>cheering you on</p>
-        <p>through every step of your journey</p>
-        <p>Happy Birthday Menal!</p>
-        <p>From your Mateen</p>
-    </div>
-</div>
+			<div class="col-md-12">
+				<p>Xola, since you came into my life, everything feels so much brighter.</p>
+				<p>I'm so happy to have you by my side, making every moment special.</p>
+				<p>You are the sweetest person I've ever met, and life with you is just perfect.</p>
+				<p>Here's to celebrating you today and always!</p>
+				<p>HBD to YOU from your Mateen!</p>
+			</div>
+		</div>
 		<div class="navbar navbar-fixed-bottom">
 			<div class="row">
 				<div class="col-md-6 text-center col-md-offset-3">
@@ -151,23 +135,10 @@
 					<button class="btn btn-primary" id="cake_fadein">Most Delicious Cake Ever</button>
 					<button class="btn btn-primary" id="light_candle"> Light Candle</button>
 					<button class="btn btn-primary" id="wish_message">Happy Birthday</button>
-					<button class="btn btn-primary" id="story">A mesage for you</button>
-					<!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
+					<button class="btn btn-primary" id="story">A message for you</button>
 				</div>
 			</div>
-			<!-- <div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div> -->
 		</div>
-
-
 	</div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
